@@ -20,3 +20,15 @@ nav ul li:last-child img {
       height: 40px;
       object-fit: cover;
 }
+
+.no-underline, .no-underline:hover {
+      border-bottom: none;
+}
+
+#logo {
+      transition: all .6s;
+}
+
+#logo:hover {
+      transform: scale(1.05);
+}
